@@ -1,0 +1,88 @@
+body {
+  font-family:  Verdana, Helvetica, Arial, sans-serif;
+  font-size: medium;
+  line-height: 1.6em; /* 1.6 times the font-size. */
+  /* shorthand way. */
+  /* font: medium/1.6em Verdana, Helvetica, Arial, sans-serif;  */
+  /* letter-spacing: 0.3px; */
+}
+h1, h2 {
+  color: #007e7e;
+}
+h1 {
+  font-size: 1.5em; /* 1.5 times the font-size of the body. */
+}
+h2 {
+  font-size: 1.3em; /* 1.3 times the font-size of the body. */
+}
+#contentContainer {
+  display: table;
+  border-spacing: 10px;
+}
+#contentContainer {
+  display: table-row;
+}
+.areas {
+  display: table-cell;
+}
+#guarantee {
+  border: dashed 1px white;
+  border-radius: 30px;
+  
+  background: #a7cece url(../images/background.gif) no-repeat;
+  background-position: top left;
+
+  padding: 25px;
+  padding-left: 80px;
+  margin: 30px;
+  margin-right: 25%;
+
+  line-height: 1.9em; /* 1.9 times the font-size of the body. */
+  color: #444;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#elixirs {
+  background-image: url(../images/cocktail.gif);
+  background-repeat: repeat-x;
+
+  border: solid thin #007e7e;
+  width: 17.5%; /* 0.175 times the width of the body. */
+
+  padding: 2.5%; /* 10% of the #elixirs width. */
+  padding-top: initial;
+  margin-left: 2.5%; /* 10% of the #elixirs width. */
+
+  text-align: center;
+  line-height: 1;
+}
+#elixirs h2 {
+  color: black;
+}
+#elixirs h3 {
+  color: #d12c47;
+}
+#footer {
+  font-size: 70%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
+}
+.cd {
+  font-style: italic;
+}
+.artist {
+  font-weight: bold;
+}
+a:link { color : #007e7e; }
+a:visited { color : #333333; }
+#elixirs a:link { 
+  color: #007e7e;
+}
+#elixirs a:visited { 
+  color: #333333;
+}
+#elixirs a:hover { 
+  background-color: #f88396; 
+  color: #0d5353;
+}
